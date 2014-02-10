@@ -1,17 +1,21 @@
 (function() {
 
-  var edge = require('edge');
-
-  var main = {
-    ToUpper: edge.func({
-      assemblyFile: 'TestDotNetProject/TestDotNetProject/bin/Debug/TestDotNetProject.dll',
-      typeName: 'TestDotNetProject.Main',
-      methodName: 'ToUpper'
-    })
+  var events = {
+    onMouseMove: function(eventArgs) {
+      console.log("Mouse Move", eventArgs);
+    }
   };
 
-  main.ToUpper('Hello from Node.js', function (error, result) {
-    console.log(result);
+  var edge = require('edge');
+
+  var AddEvents = edge.func({
+    assemblyFile: 'TestDotNetProject/TestDotNetProject/bin/Debug/TestDotNetProject.dll',
+    typeName: 'TestDotNetProject.Main',
+    methodName: 'AddEvents'
   });
+  AddEvents(events, true);
+
+  // Keep alive:
+  process.stdin.resume();
 
 })();
