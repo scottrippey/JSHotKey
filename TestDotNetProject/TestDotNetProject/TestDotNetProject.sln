@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDotNetProject", "TestDotNetProject.csproj", "{74D40FF5-2651-44E6-B8D5-B4574DE50E15}"
 EndProject
