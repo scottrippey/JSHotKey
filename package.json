@@ -1,0 +1,29 @@
+{
+  "name": "JSHotKey",
+  "version": "0.1.0",
+  "description": "",
+  "main": "JSHotKey.js",
+  "dependencies": {
+    "edge": "~0.7.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottrippey/JSHotKey.git"
+  },
+  "keywords": [
+    "HotKey",
+    "AutoHotKey",
+    "Keyboard",
+    "Mouse",
+    "Hook"
+  ],
+  "author": "Scott Rippey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottrippey/JSHotKey/issues"
+  },
+  "homepage": "https://github.com/scottrippey/JSHotKey"
+}
